@@ -1,0 +1,78 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+    Selenium is a web based automated tool
+    Automate only UI
+   Components:
+ There are Three components available :
+    1. IDE
+    2. Grid
+    3. driver tool
+
+  Explain:
+
+    father of the tool : simon stewart 
+    launch in : 2007
+     * Selenium is a open source tool.
+     * Selenium is a JAR file it does't application.
+     * Selenium is used to contect the test on  functional and regression testing.
+     * It can't automate desktop application and moblie application. 
+     * selenium web driver allow the browsers  like ,chrome, firebox,edge,safari and opera .
+     * selenium web driver allow the laungage like  java ,pythan,perl and ruby.
+    
+
+2) How does Selenium communicate with the Web browsers? 
+   * The load URL is starting from https:// 
+   * Ex: https://leafground.com/
+   * https:// ---> this via communicate with web browser.
+
+3.What are the locators available  to find an element using Selenium?
+  
+ There are 8 locators :
+
+  1. id 2.className 3. name 4. text patg 5. link text 6. partial link text 7. xpath 8. css.
+
+4. Why ID is preferable than X-Path?
+
+  * id    : easy to acess and easybto find out the attribute value.
+       
+  * x-path: identification is little bit complicate .
+
+5.How to select value in dropdown?
+  There are 3 ways :
+  1. select by value
+  2. select by index
+  3. select by visible text
+6) What is the difference between Absolute Path and Relative Path?
+  Absolute Path:
+   It's starting from rootnode (html)
+   It's starting from single slash.
+  Relative Path:
+   It's starting from current node 
+   It's starting from double slash.
+    
+
+
+7) How to verify if the given radio button  is selected or not(safari radio button) (it is not taught but you can explore) Try here: https://leafground.com/radio.xhtml)
+
+8)Difference between System.setProperty and WebDriverManager
+     setProperty(“propertyName”, “value”)”. It implies that it sets the system property 'propertyName' to have the value 'value'.
+ While testing with Selenium, you will make use of the setProperty method because the browser doesn't have a built-in server to run the automation code.
+
+     WebDriverManager is an open-source Java library that carries out the management
+ (i.e., download, setup, and maintenance) of the drivers required by Selenium WebDriver
+ (e.g., chromedriver, geckodriver, msedgedriver, etc.) in a fully automated manner.
+
+9) Write the syntax for preceding and following x-paths.
+    Syntax: parent::node()
+
+The below example will selects the parent node of the input tag of Id='email'.
+
+Ex: //input[@id='email']/parent::* the above can also be re-written as //input[@id='email']/
+   
+
+10) How to get an attribute value using Selenium WebDriver?
+   *Attribute value is get help of attribute 
+   *Attribute colour is Red
+   *Attribute value colour is Bule
+   *Each and every html code are inbuild in attribte and attribute values 
+   *Locators Attribute 
+

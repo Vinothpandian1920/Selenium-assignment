@@ -1,0 +1,81 @@
+
+       Answer All the Question
+
+1.Explain about the main method in java?
+   Syntax for main method:
+   public static void main(string[]args){
+}
+   Explain:
+
+   1.Public:
+     *Public is a acess modifier.
+     *it can acess from anywhere.
+   2. static:
+     * static is a keyword.
+     * without instance of the class
+   3. void:
+     * void is a return type .
+     * it does't return anywhere.
+   4. main:
+     * main is a keyword
+   5.(string[]args)
+
+    * it's a command line argument.
+
+2.What are the different  Control flow Statements available in java?
+     There are three statement available.
+          1. loop statement
+          2. jump statement
+          3. Decision making statement
+3.What is the Difference betweeen break and continue statements?
+
+Break:
+   * Break statement stops the entire process of the loop.
+   * Break also terminates the remaining iterations.
+
+ Continue:
+  * continue statement only stops the current iteration of the loop.
+  * Continue doesn't terminate the next iterations.
+
+4.What is an Array? How will you declare an array in java?
+
+   * Array is a container
+     
+   *Array is a collection of multiple data's store in same data type.
+    
+  therw are two way in arrar declare:
+    1. Array littral
+    2. Array new keyword
+
+
+5.When will you get ArrayIndexOutOfBoundsException?
+    
+   *  The Array index is either negative or greater than or equal to the size of the array.
+
+6.Define the Syntax to create an object for a class.
+     *ClassName object=new ClassName();
+
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examoles
+       *Pascall case : class .Ex: ReverseString.
+       *camel case   : methos , variable Ex: vinothPandian.
+
+7.What is Variable?How will you declare a variables in java?
+   *Variable is a name of memory location
+   String(type) variable ="vinoth(value) " ;
+
+8.What is String in java? Is it a Data Type?
+    * sequence of charactor is called string.
+    * String is a immutable object.
+   DataType:
+     It's Non-primitive Data type
+    
+9.What are the different ways to create the String Object in java?
+     Two ways:
+    1. String littral Ex: string text ="vinoth";
+    2. String new keyword  Ex: String name = new string (Testleaf);
+ 
+10.What is the Difference between .Equals and ==? 
+    .Equals : it's compare or check in string value 
+     ==     : its compare  or check the memory adress
+     
